@@ -12,10 +12,10 @@ let comp = (<Provider store={store}>
   </React.StrictMode>
 </Provider>)
 
-// ReactDOM.render(
-//   comp,
-//   document.getElementById('root')
-// );
+ReactDOM.render(
+  comp,
+  document.getElementById('root')
+);
 
 export default comp;
 
